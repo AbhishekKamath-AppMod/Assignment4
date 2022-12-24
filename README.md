@@ -1,6 +1,5 @@
 # Assignment4
-## STEP 11: 
-Write a docker file for the program modified in STEP 8.
+## STEP 11: Write a docker file for the program modified in STEP 8.
 FROM openjdk:8-jdk-alpine
 LABEL MAINTAINER = "AbhishekKamath" 
 ADD target/demo-0.0.1-SNAPSHOT.jar spring-boot-hibernate-crud-demo.jar
